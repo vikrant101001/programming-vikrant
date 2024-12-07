@@ -33,7 +33,6 @@ const Experience = () => {
               <img
                 src={card.thumbnail}
                 alt={card.thumbnail}
-                href="https://www.linkedin.com/in/programming-vikrant/"
                 className="lg:w-32 md:w-20 w-16"
               />
               <div className="lg:ms-5">
