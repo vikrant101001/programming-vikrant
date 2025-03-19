@@ -6,17 +6,18 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 const Approach = () => {
   return (
     <section className="w-full py-20">
-      <br/><br/><br/><br/><br/><br/>
-      <h1 className="heading">
-        My <span className="text-purple">Tech Stacks</span>
-      </h1>
+      
+      <h1 className="heading text-white">
+  My <span className="text-purple">Tech Stacks</span>
+</h1>
+
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="NodeJS Python"
-          icon={<AceternityIcon order="Backend" />}
-          des="Having worked In NodeJS(Express JS and NestJS) and Python(Flask, Fast API and Django) professioanlly and personally, i feel this 2 languages and backend in general is the best fit for me"
+          title="Python"
+          icon={<AceternityIcon order="Python" />}
+          des="Built GenAI products and currently building a middleware based SaaS package called Apiseek. "
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -45,9 +46,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Azure/AWS Postgresql/MongoDB"
-          icon={<AceternityIcon order="Cloud/DB" />}
-          des="Having used both Cloud service(certified) and the 2 main SQL/NoSQL in all my work in my 2YOE, i feel quite comfortable using all features of them"
+          title="Java"
+          icon={<AceternityIcon order="Java" />}
+          des="Java:2YOE in Springboot ,Built Microservices, payment modules."
         >
           <CanvasRevealEffect
             animationSpeed={3}

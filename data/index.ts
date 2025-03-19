@@ -70,30 +70,30 @@ export const gridItems = [
 ];
 
 export const projects = [
+  
   {
     id: 1,
+    title: "APISEEK - Official Website",
+    des: "Official Website for Apiseek - a SaaS Python Package for developers and startups",
+    img: "/apiseekoff.jpg",
+    iconLists: ["/re.svg", "/ts.svg"],
+    link: "https://apiseek-official.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "APISEEK - Demo Live Dashboard",
+    des: "Live Dashboard of a Hosted Apiseek backend",
+    img: "/apiseekhero.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://zapiseekbackend.onrender.com/apiseek",
+  },{
+    id: 3,
     title: "AICISION",
     des: "Your AI Buddy to Help You Take Your Decision",
     img: "/aicision.jpg",
     iconLists: ["/re.svg", "/tail.svg"],
     link: "https://aicision.netlify.app/",
-  },
-  {
-    id: 2,
-    title: "PRECASTINATE",
-    des: "A CRUD Application tracking your tasks to avoid procastination",
-    img: "/precastinate.jpg",
-    iconLists: ["/re.svg", "/ts.svg"],
-    link: "/ui.yoom.com",
-  },
-  {
-    id: 3,
-    title: "Chat With Me",
-    des: "AI Chatbot for chatting with Me",
-    img: "/ttvik.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "/ui.aiimg.com",
-  },
+  }
   
 ];
 
@@ -167,23 +167,23 @@ export const workExperience = [
   {
     id: 1,
     title: "Software Engineer 1 @ Deloitte, August 2023 -present",
-    desc: "Technology Used: NestJS, ReactJS, Python, AWS.",
+    desc: "Technology Used: Python, Java, ReactJS, MongoDB, Cloud",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Backend Engineer @ Pollvault, March 2023 - August 2023",
-    desc: "Technology Used: ExpressJS, Python, AWS, PostgresQL",
+    title: "AI Engineer 1 @ Evva Health, January - August 2023",
+    desc: "Technology Used: ReactJS, Python, AWS, OpenAI, MongoDB",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp3.svg",
   },
   {
     id: 3,
-    title: "Full-Stack+AI Engineer @ Evva Health, January - August 2023",
-    desc: "Technology Used: ReactJS, NestJS, Python, AWS, OpenAI, Claude, MongoDB",
+    title: "Backend Intern @ Pollvault, October 2022 - January 2023",
+    desc: "Technology Used: Python, AWS, PostgresQL",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp2.svg",
   }
 ];
 

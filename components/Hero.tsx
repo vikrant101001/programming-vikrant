@@ -43,7 +43,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            NextJS and NestJS Portfolio
+            Python/Java/Fullstack Dev Portfolio
           </p>
 
           {/**
@@ -57,10 +57,10 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I am a Full Stack Developer with 2+ Years Of Experience. <br/> <br/>  NestJS, ReactJS, Python and more (scroll down)
+            Hi! I am a Full Stack Developer with 2+ Years Of Experience currently working at Deloitte<br/><br/> I am also building APISEEK(scroll to projects to know more)<br/> <br/> Hover over the cards to see my entire tech stack
           </p>
 
-          <a href="https://drive.google.com/file/d/1g-jddSP07q4r-Y8oxcv1_aB42tfhbe11/view?usp=sharing"target="_">
+          <a href="https://drive.google.com/file/d/1ojHvi2VWy5nlAwxtLWyDcsJSGIqCvZMN/view?usp=sharing"target="_">
             <MagicButton
               title="See My Resume"
               icon={<FaLocationArrow />}
